@@ -1,0 +1,119 @@
+﻿<html>
+<head>
+    <title>Retele</title>
+    <link rel="stylesheet" href="stiluri.css">
+    <style>
+        div.name {
+            background-color: #6666ff;
+            opacity: 0.6;
+        }
+
+        body {
+            background-image: url("background.png");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="name">
+
+        <h1>Martin Daciana</h1>
+    </div>
+    <p1>Contact: martin.pa.daciana@student.utcluj.ro</p1>
+
+    <h1>Componente si caracteristici</h1>
+    <table>
+        <tr>
+            <th>Denumire</th>
+            <th>Producator</th>
+            <th>Parametrii</th>
+        </tr>
+        <tr>
+            <th>Intel(R) Core(TM) i7-8565U CPU @ 1.80GHz 1.99 GHz.</th>
+            <th>Intel</th>
+            <th>
+                Total Cores: 4<br>
+                Total Threads: 8<br>
+                Processor Base Frequency: 1.80 GHz<br>
+                Cache: 8 MB Intel® Smart Cache<br>
+            </th>
+        </tr>
+        <tr>
+            <th>Placa de baza ASUS PRIME H410M-A/CSM</th>
+            <th>Asus</th>
+            <th>
+                Format: mATX<br>
+                Soclu procesor: 1200<br>
+                Producator chipset: Intel<br>
+                Chipset audio: Realtek ALC887<br>
+            </th>
+        </tr>
+        <tr>
+            <th>Memorie Kingston FURY Beast</th>
+            <th>Kingston</th>
+            <th>
+                Serie: FURY Beast<br>
+                Tip: DDR4<br>
+                Capacitate: 8 GB<br>
+                Frecventa: 2666 MHz<br>
+                Latenta CAS: 16 CL<br>
+                Radiator: FURY Beast<br>
+            </th>
+        </tr>
+        <tr>
+            <th>Placa video Palit GeForce GTX</th>
+            <th>Palit</th>
+            <th>
+                Interfata: PCI Express x16 3.0<br>
+                Rezolutie maxima: 7680x4320 pixeli<br>
+                Model : GeForce GTX 1650<br>
+                Editie/Racire : GP<br>
+                Producator chipset: NVIDIA<br>
+            </th>
+        </tr>
+        <tr>
+            <th>Placa de retea</th>
+            <th>Tp-link</th>
+            <th>
+                Interfata: PCI Express x1<br>
+                Viteza de transfer: 10/100/1000 Mbps<br>
+                Chipset: Realtek<br>
+            </th>
+        </tr>
+        <tr>
+            <th>Cooler CPU</th>
+            <th>Deepcool</th>
+            <th>
+                Tip racier: Aer<br>
+                Racire : Activ<br>
+                Bearing ventilator: HDB (Hydro Dynamic)<br>
+                Numar heatpipe-uri: 3<br>
+                Inaltime: 135.7 mm<br>
+                Numar ventilatoare: 1<br>
+                Dimensiune ventilator: 120 mm<br>
+            </th>
+        </tr>
+    </table>
+    <h1>Structura retelei</h1>
+    <img src="diagrama.drawio.png" alt="diagrama" style="width: 300px; height: 290px; border-style: solid;">
+
+    <h1>Caracteristici conexiune retea</h1>
+    <ul>
+        <li>Physical Address. . . . . . . . . : 6C-4B-90-90-76-F2</li>
+        <li>IPv6 Address. . . . . . . . . . . : 2001:b30:1802:6:8573:f1aa:7a93:e28e(Preferred)</li>
+        <li> DOWNLOAD Mbps. . . . . . . . . . :104.56</li>
+        <li>UPLOAD Mbps . . . . . . . . . . . :81.89 </li>
+    </ul>
+    <h1 ondblclick="double()">Monotorizare resurse</h1>
+    <h1 id="demo"></h1>
+    <img src="CPU.jpg" alt="cpu" style="width: 500px; height: 250px; border-style: solid;">
+    <img src="Disk.jpg" alt="disk" style="width: 500px; height: 250px; border-style: solid; ">
+    <img src="Memory.jpg" alt="memory" style="width: 500px; height: 250px; border-style: solid; ">
+    <img src="Network.jpg" alt="network" style="width: 500px; height: 250px; border-style: solid;">
+    <script>
+        function double() {
+            document.getElementById("demo").innerHTML += "Va aparea slideshow-ul ";
+        }
+    </script>
+</body>
+</html>

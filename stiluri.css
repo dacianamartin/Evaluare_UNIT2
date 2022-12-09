@@ -1,0 +1,26 @@
+table, th, td {
+  border: 1px solid;
+}
+th {
+  background-color: #99ccff;
+  color: #000066;
+}
+p1{
+font-size: 30px;
+font-weight: bold;
+color: #4700b3;
+}
+h1 {
+  font-family: "Copperplate", Fantasy;
+  font-weight: bold;
+  color:#660066;
+font-size: 40px;
+}
+img{
+margin-left: 10%;
+border-radius:20%;
+}
+li{
+font-weight: bold;
+background-color:#f2d9f2;
+}
